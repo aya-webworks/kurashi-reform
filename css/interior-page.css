@@ -1,0 +1,20 @@
+/* 内装ページの代表写真だけに適用 */
+.service-page .interior-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  border-radius: 18px;
+}
+
+@media (max-width: 767px) {
+  .service-page .interior-hero-image {
+    margin-top: 28px;
+    border-radius: 12px;
+  }
+}
+
+/* 工程16：孤立した語尾を、短い意味のまとまりで保つ */
+.service-page .interior-wrap-phrase {
+  white-space: nowrap;
+}

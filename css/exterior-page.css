@@ -1,0 +1,25 @@
+/* 工程9：外装ページの長い工事名だけを意味のまとまりで折り返す */
+.exterior-page .work-title-phrase {
+  display: inline-block;
+}
+
+/* 工程14：外装ページの代表写真だけに適用 */
+.exterior-page .exterior-hero-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  border-radius: 18px;
+}
+
+@media (max-width: 767px) {
+  .exterior-page .exterior-hero-image {
+    margin-top: 28px;
+    border-radius: 12px;
+  }
+}
+
+/* 工程16：孤立した語尾を、短い意味のまとまりで保つ */
+.exterior-page .exterior-wrap-phrase {
+  white-space: nowrap;
+}
